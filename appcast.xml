@@ -3,15 +3,15 @@
   <channel>
     <title>AIUsage</title>
     <item>
-      <title>Version 0.15.24</title>
-      <sparkle:version>0.15.24</sparkle:version>
-      <sparkle:shortVersionString>0.15.24</sparkle:shortVersionString>
-      <pubDate>Wed, 07 Oct 2026 06:31:54 +0000</pubDate>
+      <title>Version 0.15.25</title>
+      <sparkle:version>0.15.25</sparkle:version>
+      <sparkle:shortVersionString>0.15.25</sparkle:shortVersionString>
+      <pubDate>Sun, 11 Oct 2026 07:55:33 +0000</pubDate>
       <enclosure
-        url="https://github.com/sylearn/AIUsage/releases/download/v0.15.24/AIUsage-0.15.24-macOS.zip"
+        url="https://github.com/sylearn/AIUsage/releases/download/v0.15.25/AIUsage-0.15.25-macOS.zip"
         type="application/octet-stream"
-        sparkle:edSignature="3lM6SvfX4dwoFrFm4oO9/FrHjAqVCcXTg6pPbdSiP8gakX7vTHFTc42dcp8SXcjHNxFnT17FeeuF1Xe207fuBg=="
-        length="29590231"
+        sparkle:edSignature="fgvK5KBUhGuGykYrRakfPPne8oCrJ1PEOjGstsxp0JzRxAcmdsJbNPAxty9IyW+D7e2/ztEk8Ld9ZOfHZN+mAw=="
+        length="29593892"
       />
     </item>
   </channel>
