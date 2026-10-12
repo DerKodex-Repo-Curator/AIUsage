@@ -142,6 +142,11 @@ class AppState: ObservableObject {
             await CLIProxyGatewayManager.shared.backfillSubscriptionAccountsFromAuthImportsIfNeeded()
         }
 
+        // 「共享给其他设备」跟随设置启停；关闭时不监听任何端口。
+        Task { @MainActor in
+            QuotaShareService.shared.activate()
+        }
+
         refreshCoordinator.configure(
             selectedProviderIds: { [weak self] in self?.selectedProviderIds ?? [] },
             providerCatalogIds: { Self.providerCatalogItems.map(\.id) },

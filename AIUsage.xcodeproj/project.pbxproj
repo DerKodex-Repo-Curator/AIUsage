@@ -30,6 +30,7 @@
 		5EFAD7712F87AFE700A15674 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5EFAD7402F87AC7100A15674 /* Preview Assets.xcassets */; };
 		5EFAD7732F87AFE700A15674 /* DashboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EFAD7472F87AC7100A15674 /* DashboardView.swift */; };
 		5EFAD7742F87AFE700A15674 /* APIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EFAD7442F87AC7100A15674 /* APIService.swift */; };
+		A5A0E1C12F9A001000A15674 /* QuotaShareService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5A0E1C02F9A001000A15674 /* QuotaShareService.swift */; };
 		5EFAD7752F87AFE700A15674 /* ProviderCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EFAD7492F87AC7100A15674 /* ProviderCard.swift */; };
 		5EFAD7762F87AFE700A15674 /* ProvidersView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EFAD74A2F87AC7100A15674 /* ProvidersView.swift */; };
 		5EFAD7772F87AFE700A15674 /* AppState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EFAD73D2F87AC7100A15674 /* AppState.swift */; };
@@ -260,6 +261,7 @@
 		5EFAD7402F87AC7100A15674 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		5EFAD7422F87AC7100A15674 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5EFAD7442F87AC7100A15674 /* APIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIService.swift; sourceTree = "<group>"; };
+		A5A0E1C02F9A001000A15674 /* QuotaShareService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuotaShareService.swift; sourceTree = "<group>"; };
 		5EFAD7462F87AC7100A15674 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		5EFAD7472F87AC7100A15674 /* DashboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardView.swift; sourceTree = "<group>"; };
 		5EFAD7482F87AC7100A15674 /* MenuBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuBarView.swift; sourceTree = "<group>"; };
@@ -589,6 +591,7 @@
 				C1CPA0162FD000C000B26789 /* CLIProxyCredentialAdapter.swift */,
 				C1CPA0582FD0034000B26789 /* CLIProxyGeminiCredentialBridge.swift */,
 				5EFAD7442F87AC7100A15674 /* APIService.swift */,
+				A5A0E1C02F9A001000A15674 /* QuotaShareService.swift */,
 				B1REFA002F97002000A15674 /* ProxyRuntimeService.swift */,
 				B1PA00002F97002000A15674 /* ProxyPortArbiter.swift */,
 				B1GP00102F97002000A15674 /* GlobalProxyRuntime.swift */,
@@ -937,6 +940,7 @@
 				5EFSAL012F99004100A15674 /* SubscriptionAccountListModels.swift in Sources */,
 				5EFSAS012F99004200A15674 /* SubscriptionAppScopeControl.swift in Sources */,
 				5EFAD7742F87AFE700A15674 /* APIService.swift in Sources */,
+				A5A0E1C12F9A001000A15674 /* QuotaShareService.swift in Sources */,
 				B1REFA012F97002000A15674 /* ProxyRuntimeService.swift in Sources */,
 				B1PA00012F97002000A15674 /* ProxyPortArbiter.swift in Sources */,
 				B1GP00012F97002000A15674 /* GlobalProxyConfig.swift in Sources */,
